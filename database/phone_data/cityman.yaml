@@ -1,0 +1,74 @@
+device-name: 'cityman'
+device-vendor: 'Microsoft'
+device-model-name: 'Lumia 950 XL'
+device-description: 'The Microsoft Lumia 950 XL is a premium Windows 10 Mobile phablet launched in 2015, featuring a 5.7-inch Quad HD (2560x1440) AMOLED display with Corning Gorilla Glass 4 and Glance screen technology. Driven by a Qualcomm Snapdragon 810 octa-core processor and 3GB of LPDDR4 RAM, it delivers high-end performance, further aided by liquid cooling technology. The device is heavily focused on photography, boasting a 20-megapixel PureView rear camera with ZEISS optics, 5th-gen optical image stabilization (OIS), and a triple-LED RGB flash capable of 4K video recording, complemented by a 5MP wide-angle front-facing camera. Key productivity features include Windows Continuum, which allows the phone to power a desktop-like experience via a Display Dock, along with Windows Hello iris recognition for security. Housed in a polycarbonate body with a removable back, it offers 32GB of internal storage (expandable via microSD) and a 3340mAh battery that supports both fast USB-C charging and Qi wireless charging'
+specs: 
+  soc: 'Qualcomm MSM8994 Snapdragon 810'
+  gpu: 'Qualcomm Adreno 430'
+  ram: '3 GB'
+  storage: '32 GB eMMC 5.0'
+  is_ab_device: false
+  screen: 
+    resolution: '1440x2560'
+    size: 5.7
+    technology: 'AMOLED'
+  battery: 
+    capacity: 3340
+    removable: true
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G HSPA'
+    - '4G LTE'
+  peripherals: 
+    - 'Iris scanner'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'NFC'
+    - 'Barometer'
+    - 'SensorCore'
+    - 'USB-C 3.1 (Continuum support)'
+    - 'Wireless charging (Qi)'
+  release: '2015-11'
+roms: 
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Beta'
+    android-version: '11'
+    rom-webpage: 'https://lineageos.org'
+    phone-webpage: 'https://github.com'
+  - 
+    rom-name: 'Windows 10'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '10 (ARM64)'
+    rom-notes: 'Running full desktop Windows via [LumiaWOA project](https://woa-project.github.io).'
+    rom-webpage: 'https://woa-project.github.io'
+    phone-webpage: 'https://github.com'
+  - 
+    rom-name: 'Windows 11'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '11 (ARM64)'
+    rom-notes: 'Running full desktop Windows via [LumiaWOA project](https://woa-project.github.io).'
+    rom-webpage: 'https://woa-project.github.io'
+    phone-webpage: 'https://github.com'
+
+linux: 
+  - 
+    distribution-name: 'PostmarketOS'
+    distribution-support: true
+    distribution-state: 'Testing'
+    distribution-notes: 'Mainline kernel work in progress.'
+    distribution-webpage: 'https://postmarketos.org'
+    device-webpage: 'https://wiki.postmarketos.org/wiki/Microsoft_Lumia_950_XL_(microsoft-cityman)'
+  - 
+    distribution-name: 'Ubuntu Touch'
+    distribution-support: true
+    distribution-state: 'Community'
+    distribution-notes: 'Experimental port using [LumiaWOA](https://woa-project.github.io) foundations.'
+    distribution-webpage: 'https://ubuntu-touch.io/'
+    device-webpage: 'https://github.com'
